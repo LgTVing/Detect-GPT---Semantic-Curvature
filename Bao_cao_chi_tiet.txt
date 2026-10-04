@@ -1,0 +1,68 @@
+BÁO CÁO KẾT QUẢ DETECTGPT (MULTI-LAYER SEMANTIC CURVATURE)
+============================================================
+
+1. CÁC CHIẾN LƯỢC TĨNH (STATIC STRATEGIES)
+------------------------------------------------------------
+Chiến lược: Semantic Curvature (Last)
+  - AUROC      : 0.9138
+  - AUPRC      : 0.8942
+  - Accuracy   : 0.8370
+  - F1 Score   : 0.8511
+  - TPR @ 1%FPR: 0.1080
+  - TPR @ 5%FPR: 0.6420
+
+Chiến lược: Semantic Curvature (Weighted)
+  - AUROC      : 0.9060
+  - AUPRC      : 0.8953
+  - Accuracy   : 0.8460
+  - F1 Score   : 0.8432
+  - TPR @ 1%FPR: 0.2280
+  - TPR @ 5%FPR: 0.4940
+
+Chiến lược: Semantic Curvature (Concat)
+  - AUROC      : 0.9284
+  - AUPRC      : 0.9166
+  - Accuracy   : 0.8690
+  - F1 Score   : 0.8707
+  - TPR @ 1%FPR: 0.2440
+  - TPR @ 5%FPR: 0.6040
+
+2. QUÉT THEO TỪNG LỚP (SWEEP PER-LAYER AUROC)
+------------------------------------------------------------
+🏆 Lớp vô địch (Best Layer): Lớp 25 (AUROC = 0.9314)
+
+Chi tiết từng lớp:
+  - Lớp   1: AUROC = 0.7355
+  - Lớp   2: AUROC = 0.7370
+  - Lớp   3: AUROC = 0.7420
+  - Lớp   4: AUROC = 0.6914
+  - Lớp   5: AUROC = 0.6897
+  - Lớp   6: AUROC = 0.7482
+  - Lớp   7: AUROC = 0.7558
+  - Lớp   8: AUROC = 0.8396
+  - Lớp   9: AUROC = 0.8276
+  - Lớp  10: AUROC = 0.8042
+  - Lớp  11: AUROC = 0.8358
+  - Lớp  12: AUROC = 0.8911
+  - Lớp  13: AUROC = 0.8866
+  - Lớp  14: AUROC = 0.8652
+  - Lớp  15: AUROC = 0.8470
+  - Lớp  16: AUROC = 0.8002
+  - Lớp  17: AUROC = 0.8555
+  - Lớp  18: AUROC = 0.9301
+  - Lớp  19: AUROC = 0.9274
+  - Lớp  20: AUROC = 0.9075
+  - Lớp  21: AUROC = 0.9256
+  - Lớp  22: AUROC = 0.9237
+  - Lớp  23: AUROC = 0.9095
+  - Lớp  24: AUROC = 0.9207
+  - Lớp  25: AUROC = 0.9314
+  - Lớp  26: AUROC = 0.9101
+  - Lớp  27: AUROC = 0.9044
+  - Lớp  28: AUROC = 0.8824
+  - Lớp  29: AUROC = 0.8890
+  - Lớp  30: AUROC = 0.9011
+  - Lớp  31: AUROC = 0.8992
+  - Lớp  32: AUROC = 0.8978
+  - Lớp  33: AUROC = 0.9105
+  - Lớp  34: AUROC = 0.9138
